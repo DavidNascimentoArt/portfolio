@@ -1,0 +1,17 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Basic portfolio site",
+  "homepage": "https://DavidNascimentoArt.github.io/portfolio",
+  "private": false,
+  "scripts": {
+    "start": "npx http-server -c-1 . -p 8080",
+    "deploy": "gh-pages -d public"
+  },
+  "author": "Gonçalo",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "http-server": "^14.1.1"
+  }
+}
