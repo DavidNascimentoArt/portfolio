@@ -1,0 +1,16 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Basic portfolio site",
+  "private": false,
+  "scripts": {
+    "start": "npx http-server -c-1 . -p 8080",
+    "deploy": "gh-pages -d ."
+  },
+  "author": "Gonçalo",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "http-server": "^14.1.1"
+  }
+}
